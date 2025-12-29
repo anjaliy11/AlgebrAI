@@ -1,7 +1,7 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
-from langchain.chains import LLMChain
+from langchain.prompts.prompt import PromptTemplate
+from langchain.chains.llm import LLMChain
 
 
 
