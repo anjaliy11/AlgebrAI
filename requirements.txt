@@ -1,4 +1,7 @@
-langchain==1.1.2
+streamlit==1.26.0
+langchain==0.1.157
+langchain-groq
+
 python-dotenv
 ipykernel
 langchain-community
@@ -17,7 +20,7 @@ langchain_chroma
 duckdb
 pandas
 openai
-langchain-groq
+
 duckduckgo_search==5.3.1b1
 pymupdf
 arxiv
@@ -30,4 +33,3 @@ unstructured
 pytube
 numexpr
 huggingface_hub
-streamlit
