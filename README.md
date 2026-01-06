@@ -8,7 +8,7 @@
 ![Groq](https://img.shields.io/badge/Groq-LLM%20Inference-orange)
 [![Live App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://algebrai-ikmdmzjwiwdldpnssu2ez6.streamlit.app/)
 ![Build](https://img.shields.io/badge/Build-Stable-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 
 ## ✨ Overview
@@ -17,9 +17,9 @@ AlgebrAI is a modern AI-powered web application designed to help users solve and
 
 The application converts natural language math queries into accurate solutions, providing either:
 
-a final numeric answer, or
+- a final numeric answer, or
 
-a fully explained step-by-step solution, depending on user preference.
+- a fully explained step-by-step solution, depending on user preference.
 
 Built using Streamlit, LangChain, and Groq LLMs, AlgebrAI is fast, interactive, and beginner-friendly.
 
@@ -27,15 +27,15 @@ Built using Streamlit, LangChain, and Groq LLMs, AlgebrAI is fast, interactive, 
 
 ## 🚀 Features
 
- AI-powered algebra problem solving
+ - AI-powered algebra problem solving
 
- Step-by-step mathematical reasoning
+ - Step-by-step mathematical reasoning
 
- Toggleable explanation mode
+ - Toggleable explanation mode
 
- Ultra-fast LLM inference with Groq
+ - Ultra-fast LLM inference with Groq
 
- Clean Streamlit chat-based interface
+ - Clean Streamlit chat-based interface
 
  ---
  
@@ -51,36 +51,39 @@ Built using Streamlit, LangChain, and Groq LLMs, AlgebrAI is fast, interactive, 
 
 ---
 ## Project Structure
-
+```md
 algebrai/
 │
 ├── app.py              # Streamlit application
 ├── requirements.txt    # Python dependencies
 ├── README.md           # Project documentation
 └── .env.example        # Environment variables template
-
+```
 ---
 
  ## ⚙️ Installation & Local Setup
 1️⃣ Clone the Repository
+```bash
 
 git clone https://github.com/anjaliy11/AlgebrAI.git
 
 cd AlgebrAI
-
+```
 ---
 
 ## 2️⃣ Create a Virtual Environment (Recommended)
+```bash
 python -m venv venv
 
 source venv/bin/activate   # Windows: venv\Scripts\activate
-
+```
 ---
 
 ## 3️⃣ Install Dependencies
+```bash
 
 pip install -r requirements.txt
-
+```
 ---
 
 
@@ -89,15 +92,22 @@ pip install -r requirements.txt
 
 Create a .env file in the project root:
 
+```bash
+
 GROQ_API_KEY=your_groq_api_key
+
+```
 
 ---
 
 ## ▶️ Run the Application
+```bash
 streamlit run app.py
+
+```
 
 
 📍 App will be available at:
 
-http://localhost:8501
+- http://localhost:8501
 
