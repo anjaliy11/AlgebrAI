@@ -6,7 +6,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Framework-FF4B4B?logo=streamlit)
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-0B5FFF)
 ![Groq](https://img.shields.io/badge/Groq-LLM%20Inference-orange)
-[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://https://algebrai-ikmdmzjwiwdldpnssu2ez6.streamlit.app/)
+[![Live App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://algebrai-ikmdmzjwiwdldpnssu2ez6.streamlit.app/)
 ![Build](https://img.shields.io/badge/Build-Stable-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
