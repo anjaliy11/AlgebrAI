@@ -1,14 +1,12 @@
 ## 🧮 AlgebrAI — AI-Powered Algebra Learning Assistant
-<p align="center"> <img src="https://img.icons8.com/color/96/artificial-intelligence.png" width="80"/> </p> <p align="center"> <strong>An interactive AI-powered web app to solve and understand algebra step-by-step.</strong> </p>
+
 
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20Framework-FF4B4B?logo=streamlit)
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20Framework-0B5FFF)
 ![Groq](https://img.shields.io/badge/Groq-LLM%20Inference-orange)
-
 [![Live App](https://img.shields.io/badge/Live%20App-Streamlit-brightgreen?logo=streamlit)](https://https://algebrai-ikmdmzjwiwdldpnssu2ez6.streamlit.app/)
-
 ![Build](https://img.shields.io/badge/Build-Stable-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
