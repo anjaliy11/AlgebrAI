@@ -1,35 +1,41 @@
-streamlit==1.26.0
-langchain==0.1.157
-langchain-groq
+streamlit==1.30.0
 
+# Core LangChain
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# Groq
+langchain-groq>=0.1.0
+
+# Utilities
 python-dotenv
-ipykernel
-langchain-community
+validators==0.28.1
+pandas
+numexpr
+
+# Optional / Retrieval (keep only if used)
+chromadb
+faiss-cpu
+sentence-transformers
+duckdb
+
+# Docs / loaders
 pypdf
+pymupdf
 bs4
 arxiv
-pymupdf
 wikipedia
-langchain-text-splitters
-langchain-openai
-chromadb
-sentence_transformers
-langchain_huggingface
-faiss-cpu
-langchain_chroma
-duckdb
-pandas
-openai
-
-duckduckgo_search==5.3.1b1
-pymupdf
-arxiv
-wikipedia
-mysql-connector-python
-SQLAlchemy
-validators==0.28.1
 youtube_transcript_api
 unstructured
 pytube
-numexpr
+
+# DB
+mysql-connector-python
+SQLAlchemy
+
+# Search
+duckduckgo_search==5.3.1b1
+
+# HuggingFace
 huggingface_hub
